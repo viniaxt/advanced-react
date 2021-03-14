@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import styles from '../../styles/Home.module.css'
 
-const xd = 'd'
-
 export default function Home({ title = '' }) {
   return (
     <div className={styles.container}>
